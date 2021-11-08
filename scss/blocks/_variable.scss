@@ -1,0 +1,117 @@
+.wrapper {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    //overflow: hidden;
+}
+
+body {
+    font-family: Hauora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+    background: #000000;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 11px;
+}
+
+.btn-black {
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 8px;
+    padding: 13px 32px;
+    float: right;
+    background: #000;
+    &:hover {
+        background: #0a0909;
+        transition: all 0.2s ease;
+    }
+}
+
+.btn-white {
+    font-size: 16px;
+    line-height: 22px;
+    color: #CD3939;
+    padding: 17px 30px;
+    background: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    &:hover {
+        color: #CE0101;
+        transition: all 0.2s ease;
+    }
+}
+
+.btn-red {
+    color: #FFFFFF;
+    background: #CD3939;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    padding: 17px 23px 18px 58px;
+    position: relative;
+    &:after {
+        content: '';
+        background: url('../images/svg/icon1.svg');
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 12px;
+        left: 14px;
+    }
+    &:hover {
+        background: #CE0101;
+        transition: all 0.2s ease;
+    }
+}
+
+.btn-blood {
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #CE0101;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 12px;
+    padding: 16px 73px 15px;
+    position: relative;
+    z-index: 2;
+    &:after {
+        content: '';
+        background: url(../images/svg/after.svg) no-repeat top -52px left;
+        width: 204px;
+        height: 100px;
+        position: absolute;
+        top: 57px;
+        left: -7px;
+        z-index: -1;
+    }
+    &:hover {
+        background: #de0f0f;
+        transition: all 0.2s ease;
+    }
+}
+
+h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 216%;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 0 26px;
+}
