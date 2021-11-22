@@ -164,6 +164,7 @@
 
 @media screen and (max-width: 767px) {
     h2 {
+        font-size: 28px;
         margin: 0 0 20px;
     }
     .btn-white {
@@ -413,7 +414,7 @@
     .red-section_left {
         width: 100%;
         h2 {
-            font-size: 32px;
+            font-size: 25px;
         }
         p {
             font-size: 14px;
@@ -475,5 +476,18 @@
     }
     .slick-arrow {
         bottom: 74px;
+    }
+    .slick-slide {
+        padding: 0 10px;
+    }
+    .facts {
+        b {
+            font-size: 30px;
+            margin: 0;
+        }
+        i {
+            font-size: 12px;
+            line-height: 24px;
+        }
     }
 }
